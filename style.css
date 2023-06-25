@@ -231,3 +231,15 @@ a {
     font-weight: 700;
     margin-top: -10px;
 }
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 100px;
+    background: #1f2937;
+    font-size: 18px;
+    color: #f9f8fa;
+}
