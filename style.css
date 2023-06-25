@@ -94,6 +94,11 @@ a:hover {
     font-weight: 700;
 }
 
+.btn-1:hover {
+    background: #f9f8fa;
+    color: #3882f6;
+}
+
 .right-image {
     color: #e5e7eb;
     /* height: 250px; */
@@ -159,6 +164,11 @@ a:hover {
     width: 150px;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.image-two img:hover {
+    cursor: pointer;
+    border: 3px solid #3882f6;
 }
 
 .subtext {
@@ -251,6 +261,12 @@ a:hover {
     border: 2px solid #f9f8fa;
     font-weight: 700;
     margin-top: -10px;
+}
+
+.btn-2 button:hover {
+    color: #3882f6;
+    background: #f9f8fa;
+    border: 2px solid #3882f6;
 }
 
 /* footer */
