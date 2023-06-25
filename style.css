@@ -131,7 +131,7 @@ a {
 .image-two {
     height: 150px;
     width: 150px;
-    border: 2px solid #3882f6;
+    border: 3px solid #3882f6;
     border-radius: 10px;
 }
 
@@ -145,4 +145,44 @@ a {
     font-size: 18px;
     color: #1f2937;
 
+}
+
+/* Section 3 */
+.div-three {
+    background: #efe7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    margin-bottom: 0;
+    width: 93%;
+    /* background: orange; */
+    display: flex;
+}
+
+.quote p {
+    margin-bottom: -5px;
+}
+
+.end-quote {
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* background: orange; */
+}
+
+.end-quote p {
+    margin-top: 0;
+    margin-right: 15px;
 }
