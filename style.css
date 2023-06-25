@@ -6,6 +6,7 @@ body {
     flex-direction: column;
 }
 
+/* Section 1 */
 .div-one {
     background: #1f2937;
     display: flex;
@@ -95,4 +96,53 @@ a {
     background: grey;
     flex: auto;
     min-width: 100px;
+}
+
+/* Section 2 */
+.div-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.title-two {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.content-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-two {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.subtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 170px;
+    font-size: 18px;
+    color: #1f2937;
+
 }
