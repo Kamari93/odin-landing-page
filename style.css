@@ -96,15 +96,22 @@ a:hover {
 
 .right-image {
     color: #e5e7eb;
-    height: 250px;
-    padding-bottom: 15px;
+    /* height: 250px; */
+    width: 500px;
+    padding-bottom: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: grey;
+    /* background: grey; */
     flex: auto;
     min-width: 100px;
+}
+
+.right-image img {
+    width: 500px;
+    height: 265px;
+    object-fit: cover;
 }
 
 /* Section 2 */
@@ -140,8 +147,18 @@ a:hover {
 .image-two {
     height: 150px;
     width: 150px;
-    border: 3px solid #3882f6;
+    /* border: 3px solid #3882f6; */
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-two img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .subtext {
